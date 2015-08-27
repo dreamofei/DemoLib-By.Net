@@ -1,0 +1,12 @@
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\MdiFormSkin\bin\Debug\MdiFormSkin.exe.config
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\MdiFormSkin\bin\Debug\MdiFormSkin.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\MdiFormSkin\bin\Debug\MdiFormSkin.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\MdiFormSkin\obj\Debug\MdiFormSkin.csprojResolveAssemblyReference.cache
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\MdiFormSkin\obj\Debug\MdiFormSkin.Properties.Resources.resources
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\MdiFormSkin\obj\Debug\MdiFormSkin.csproj.GenerateResource.Cache
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\MdiFormSkin\obj\Debug\MdiFormSkin.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\MdiFormSkin\obj\Debug\MdiFormSkin.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\MdiFormSkin\obj\Debug\MdiFormSkin.Form1.resources
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\MdiFormSkin\obj\Debug\MdiFormSkin.exe.licenses
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\MdiFormSkin\obj\Debug\MdiFormSkin.TestExtendForm.resources
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\MdiFormSkin\obj\Debug\MdiFormSkin.TestControl.resources

@@ -1,0 +1,8 @@
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\TestFormVisible\bin\Debug\TestFormVisible.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\TestFormVisible\bin\Debug\TestFormVisible.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\TestFormVisible\obj\Debug\TestFormVisible.csprojResolveAssemblyReference.cache
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\TestFormVisible\obj\Debug\TestFormVisible.Form1.resources
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\TestFormVisible\obj\Debug\TestFormVisible.Properties.Resources.resources
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\TestFormVisible\obj\Debug\TestFormVisible.csproj.GenerateResource.Cache
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\TestFormVisible\obj\Debug\TestFormVisible.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\TestFormVisible\obj\Debug\TestFormVisible.pdb

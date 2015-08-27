@@ -1,0 +1,8 @@
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\bin\Debug\DemoLib.Security.FW4.5.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\bin\Debug\DemoLib.Security.FW4.5.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache

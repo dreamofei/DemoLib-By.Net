@@ -1,0 +1,7 @@
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\WindowsService1\bin\Debug\WindowsService1.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\WindowsService1\bin\Debug\WindowsService1.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\WindowsService1\obj\Debug\WindowsService1.csprojResolveAssemblyReference.cache
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\WindowsService1\obj\Debug\WindowsService1.csproj.GenerateResource.Cache
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\WindowsService1\obj\Debug\WindowsService1.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\WindowsService1\obj\Debug\WindowsService1.pdb

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GetCookies.exe" version="1.0.0.3" publicKeyToken="d142761496a58014" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GetCookies" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GetCookies.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GetCookies.exe" size="9216">
+      <assemblyIdentity name="GetCookies" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xTQfapGoPoY4CN+e9ktzNNvQEgUWBpI+d8u7BSV4kV4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="425472">
+      <assemblyIdentity name="Newtonsoft.Json" version="6.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xAOvj07Jg2sJoG28yeJu9lwpSuq3+CqGbBhcQZCSR8w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UAP.Support.dll" size="7680">
+      <assemblyIdentity name="UAP.Support" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pV8ZisyS7kQ4qKwYXClSN7j/GGZmIdlLYo0ooIzSI+c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GetCookies.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SS-CN-JIANGYAFE\jiangyafei" issuerKeyHash="7dcccdca00397001249554f63c97b616dcbabdfc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1JkGPzAWyyjxpTpTou78oJU/Kx2rP+dIV+mTia3UsSY=</DigestValue></Reference></SignedInfo><SignatureValue>y99otZW+oyA6TTKNFpiHicoQ2eNdGIF6nYSgWwb0Od5roi+Z4DqftQrEAp5EOK9FeAtC1tgyhYj5ymaPC1qJcvAGmedgW7EWU/7k71eVwn4iJpIwpEwFiDFiEdx9rFWR/v0KlQtSsUZB8DbElpi0IWc0mUcjqDXwfZp1cP9nq5A=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0nTN6STD5V/B1w93m9jg1Ij8hfBS07TQWg076rlnzTzgrghBB9OvRixWpCdrTswkrwrMyL6yAVOnhOeffeFvDUXFaqvD+k38XvaSuPVCBlqnJ+WOsGoJZw+u+ZYlDc0J2b7JFa4QyO6LVeBxJgJNQrfJorFJxMOkhFJOKQSqvyk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="26b1d4ad8993e95748e73fab1d2b3f95a0fceea2533aa5f128cb16303f0699d4" Description="" Url=""><as:assemblyIdentity name="GetCookies.exe" version="1.0.0.3" publicKeyToken="d142761496a58014" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SS-CN-JIANGYAFE\jiangyafei</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GQwBLqsazkNpnm697DIJhoxRiGhF6DizeLjWCMONdkM=</DigestValue></Reference></SignedInfo><SignatureValue>IBKTF1e2GOfJrb000M+jDYPSHsXRQbW3OJpdK3wTmKl7reu62puHWm4459yTcm2kyrfkV0x2xmmbCNRnzTcsitGieqZxznlIGb48J/vfZDTTt5nWimq0LU4pkaAFFgcQmUPH2pmNFxzHuvAH8lBzbAQbgfdio6nRq6rbwfHC7+A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0nTN6STD5V/B1w93m9jg1Ij8hfBS07TQWg076rlnzTzgrghBB9OvRixWpCdrTswkrwrMyL6yAVOnhOeffeFvDUXFaqvD+k38XvaSuPVCBlqnJ+WOsGoJZw+u+ZYlDc0J2b7JFa4QyO6LVeBxJgJNQrfJorFJxMOkhFJOKQSqvyk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQblvQSQx4vb9LfGoSfMaGDjANBgkqhkiG9w0BAQsFADA/MT0wOwYDVQQDHjQAUwBTAC0AQwBOAC0ASgBJAEEATgBHAFkAQQBGAEUAXABqAGkAYQBuAGcAeQBhAGYAZQBpMB4XDTE1MDMwNjA4NDg0NFoXDTE2MDMwNTE0NDg0NFowPzE9MDsGA1UEAx40AFMAUwAtAEMATgAtAEoASQBBAE4ARwBZAEEARgBFAFwAagBpAGEAbgBnAHkAYQBmAGUAaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0nTN6STD5V/B1w93m9jg1Ij8hfBS07TQWg076rlnzTzgrghBB9OvRixWpCdrTswkrwrMyL6yAVOnhOeffeFvDUXFaqvD+k38XvaSuPVCBlqnJ+WOsGoJZw+u+ZYlDc0J2b7JFa4QyO6LVeBxJgJNQrfJorFJxMOkhFJOKQSqvykCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCOlvfCd+SVLCULXgzxg01L1i9QaRnGNchRcG4lXBj24JWvc6Y7hMGoijDPDS5ulA49AVCcL8N+/947bSrgq8lGcB9f0Ljpu33SSIO+uzCxDtIL5XQfdIUk3qQFlPhTpeiWh4Uoymm8qnGL8NYiy0T5K+8Vg9zNOO2AMSsn00zTwA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

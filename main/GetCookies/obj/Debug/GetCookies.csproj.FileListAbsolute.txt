@@ -1,0 +1,17 @@
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\bin\Debug\GetCookies.exe.config
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\bin\Debug\GetCookies.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\bin\Debug\GetCookies.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\obj\Debug\GetCookies.csprojResolveAssemblyReference.cache
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\obj\Debug\GetCookies.Form1.resources
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\obj\Debug\GetCookies.Properties.Resources.resources
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\obj\Debug\GetCookies.csproj.GenerateResource.Cache
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\obj\Debug\GetCookies.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\obj\Debug\GetCookies.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\bin\Debug\GetCookies.exe.manifest
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\bin\Debug\GetCookies.application
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\obj\Debug\GetCookies.exe.manifest
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\obj\Debug\GetCookies.application
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\bin\Debug\UAP.Support.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\bin\Debug\Newtonsoft.Json.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\bin\Debug\UAP.Support.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\GetCookies\bin\Debug\Newtonsoft.Json.xml
