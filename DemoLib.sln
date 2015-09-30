@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MdiFormSkin", "main\MdiFormSkin\MdiFormSkin.csproj", "{925DEC96-1940-4555-902F-8E732FC7B348}"
 EndProject
@@ -14,6 +14,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFormVisible", "main\TestFormVisible\TestFormVisible.csproj", "{B427BE21-828C-4153-837E-CAB262932F73}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService1", "main\WindowsService1\WindowsService1.csproj", "{910E8C17-2B04-485E-84B5-A0043380C960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "main\Log\Log.csproj", "{F5E1AE03-BBED-4D05-84F3-49EEE2C28406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElandBJ.Token", "main\ElandBJ.Token\ElandBJ.Token.csproj", "{BD83E325-2975-401D-8553-25095AF0A8A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "springNetQuartz", "main\springNetQuartz\springNetQuartz.csproj", "{ADE9FC9F-2410-49C1-80A7-8E391626EC37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElandBJ.ScheduledJob", "main\ElandBJ.ScheduledJob\ElandBJ.ScheduledJob.csproj", "{48402EBC-B085-46FF-A697-5F1F7CA1A95A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{910E8C17-2B04-485E-84B5-A0043380C960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{910E8C17-2B04-485E-84B5-A0043380C960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{910E8C17-2B04-485E-84B5-A0043380C960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E1AE03-BBED-4D05-84F3-49EEE2C28406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E1AE03-BBED-4D05-84F3-49EEE2C28406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E1AE03-BBED-4D05-84F3-49EEE2C28406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E1AE03-BBED-4D05-84F3-49EEE2C28406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD83E325-2975-401D-8553-25095AF0A8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD83E325-2975-401D-8553-25095AF0A8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD83E325-2975-401D-8553-25095AF0A8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD83E325-2975-401D-8553-25095AF0A8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE9FC9F-2410-49C1-80A7-8E391626EC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE9FC9F-2410-49C1-80A7-8E391626EC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE9FC9F-2410-49C1-80A7-8E391626EC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE9FC9F-2410-49C1-80A7-8E391626EC37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48402EBC-B085-46FF-A697-5F1F7CA1A95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48402EBC-B085-46FF-A697-5F1F7CA1A95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48402EBC-B085-46FF-A697-5F1F7CA1A95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48402EBC-B085-46FF-A697-5F1F7CA1A95A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

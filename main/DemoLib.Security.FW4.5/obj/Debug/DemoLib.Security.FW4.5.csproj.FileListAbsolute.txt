@@ -2,3 +2,4 @@ D:\Jiang\D\MyProject\VS2013\DemoLib\main\DemoLib.Security.FW4.5\bin\Debug\DemoLi
 D:\Jiang\D\MyProject\VS2013\DemoLib\main\DemoLib.Security.FW4.5\bin\Debug\DemoLib.Security.FW4.5.pdb
 D:\Jiang\D\MyProject\VS2013\DemoLib\main\DemoLib.Security.FW4.5\obj\Debug\DemoLib.Security.FW4.5.dll
 D:\Jiang\D\MyProject\VS2013\DemoLib\main\DemoLib.Security.FW4.5\obj\Debug\DemoLib.Security.FW4.5.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\DemoLib.Security.FW4.5\obj\Debug\DemoLib.Security.FW4.5.csprojResolveAssemblyReference.cache

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://Eland.BBSS_Sale.com/services" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://Eland.BBSS_Sale.com/services" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://Eland.BBSS_Sale.com/services">
+      <s:element name="CreateToken">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="expiredDuration" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateTokenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateTokenResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckToken">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckTokenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckTokenResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CreateTokenSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateToken" />
+  </wsdl:message>
+  <wsdl:message name="CreateTokenSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckTokenSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckToken" />
+  </wsdl:message>
+  <wsdl:message name="CheckTokenSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckTokenResponse" />
+  </wsdl:message>
+  <wsdl:portType name="TokenServiceWSSoap">
+    <wsdl:operation name="CreateToken">
+      <wsdl:input message="tns:CreateTokenSoapIn" />
+      <wsdl:output message="tns:CreateTokenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckToken">
+      <wsdl:input message="tns:CheckTokenSoapIn" />
+      <wsdl:output message="tns:CheckTokenSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TokenServiceWSSoap" type="tns:TokenServiceWSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateToken">
+      <soap:operation soapAction="http://Eland.BBSS_Sale.com/services/CreateToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckToken">
+      <soap:operation soapAction="http://Eland.BBSS_Sale.com/services/CheckToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="TokenServiceWSSoap12" type="tns:TokenServiceWSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateToken">
+      <soap12:operation soapAction="http://Eland.BBSS_Sale.com/services/CreateToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckToken">
+      <soap12:operation soapAction="http://Eland.BBSS_Sale.com/services/CheckToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TokenServiceWS">
+    <wsdl:port name="TokenServiceWSSoap" binding="tns:TokenServiceWSSoap">
+      <soap:address location="http://10.202.101.170/UAP.Web/TokenServiceWS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="TokenServiceWSSoap12" binding="tns:TokenServiceWSSoap12">
+      <soap12:address location="http://10.202.101.170/UAP.Web/TokenServiceWS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

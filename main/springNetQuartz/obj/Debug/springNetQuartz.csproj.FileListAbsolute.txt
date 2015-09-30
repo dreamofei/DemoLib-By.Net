@@ -1,0 +1,12 @@
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\springNetQuartz\obj\Debug\springNetQuartz.csprojResolveAssemblyReference.cache
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\springNetQuartz\bin\Debug\springNetQuartz.exe.config
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\springNetQuartz\bin\Debug\springNetQuartz.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\springNetQuartz\bin\Debug\springNetQuartz.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\springNetQuartz\bin\Debug\Quartz.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\springNetQuartz\bin\Debug\Common.Logging.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\springNetQuartz\obj\Debug\springNetQuartz.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\springNetQuartz\obj\Debug\springNetQuartz.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\springNetQuartz\bin\Debug\Spring.Scheduling.Quartz.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\springNetQuartz\bin\Debug\Spring.Core.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\springNetQuartz\bin\Debug\Spring.Data.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\springNetQuartz\bin\Debug\Spring.Aop.dll

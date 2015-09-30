@@ -6,3 +6,6 @@ D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\obj\Debug\ConsoleAp
 D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\bin\Debug\DemoLib.Security.FW4.5.dll
 D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\bin\Debug\DemoLib.Security.FW4.5.pdb
 D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\bin\Debug\ElandBJ.Token.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\bin\Debug\ElandBJ.Token.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ConsoleApplication1\bin\Debug\ElandBJ.Token.xml

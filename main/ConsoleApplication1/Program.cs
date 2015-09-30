@@ -1,6 +1,6 @@
-﻿using DemoLib.Security.FW4._5.Common;
-using DemoLib.Security.FW4._5.Crypt;
-using DemoLib.Security.FW4._5.Ticket;
+﻿using ElandBJ.Token.IService;
+using ElandBJ.Token.Security;
+using ElandBJ.Token.Service;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -186,39 +186,120 @@ namespace ConsoleApplication1
         //    c.a = 100;
         //}
 
-        static void Main(string[] args)
+        //static void Main(string[] args)
+        //{
+        //    //int key = 1;
+        //    //Console.WriteLine("主线程启动...");
+
+        //    //Thread t=new Thread(delegate(){
+
+        //    //    Console.WriteLine("我是另外一个线程...");
+        //    //});
+        //    ////Thread t1 = new Thread(ThreadStart, ParameterizedThreadStart);
+        //    //t.Start();
+        //    //Thread.Sleep(3000);
+        //    //Monitor.Wait(key);
+
+        //    SynchronizedTest st = new SynchronizedTest();
+        //    Timer t = new Timer(
+        //        delegate(object obj){
+        //            st.run();
+        //        },null,0,1000
+        //        );
+        //    Console.Read();
+
+
+        //}
+
+        //public class SynchronizedTest
+        //{
+        //    [MethodImpl(MethodImplOptions.Synchronized)]
+        //    public void run()
+        //    {
+        //        Console.WriteLine(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+        //        Thread.Sleep(5000);
+        //    }
+        //}
+
+        static void Main()
         {
-            //int key = 1;
-            //Console.WriteLine("主线程启动...");
+            //string dt1 = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            //Thread.Sleep(61000);
+            //Console.WriteLine((DateTime.Now - Convert.ToDateTime(dt1)).TotalMinutes);
+            //Console.WriteLine((DateTime.Now - Convert.ToDateTime(dt1)).TotalMinutes>Convert.ToInt32("1"));
 
-            //Thread t=new Thread(delegate(){
+            //Console.WriteLine(0.1756>1);
 
-            //    Console.WriteLine("我是另外一个线程...");
-            //});
-            ////Thread t1 = new Thread(ThreadStart, ParameterizedThreadStart);
-            //t.Start();
-            //Thread.Sleep(3000);
-            //Monitor.Wait(key);
+            //ITokenService tokenService = new TokenService();
+            ITokenService tokenService = new NoRSATokenService();
+            string token = tokenService.CreateToken("admin", 1);
+            Thread.Sleep(2000);
+            string userId;
+            string result = tokenService.CheckToken(token, out userId);
+            //string result = tokenService.CheckToken("123", out userId);
+            Console.WriteLine("result:{0},userId:{1}", result, userId);
+            Console.WriteLine("token:{0},length:{1}", token,token.Length);
 
-            SynchronizedTest st = new SynchronizedTest();
-            Timer t = new Timer(
-                delegate(object obj){
-                    st.run();
-                },null,0,1000
-                );
+            //Thread.Sleep(50000);
+            //result = tokenService.CheckToken(token, out userId);
+            //Console.WriteLine("result:{0},userId:{1}", result, userId);
+
+            //Thread.Sleep(40000);
+            //result = tokenService.CheckToken(token, out userId);
+            //Console.WriteLine("result:{0},userId:{1}", result, userId);
+
+            //ServiceReference1.CheckTokenRequest cr = new ServiceReference1.CheckTokenRequest();
+            //ServiceReference1.TokenServiceWSSoapClient ws = new ServiceReference1.TokenServiceWSSoapClient();
+            //string token = ws.CreateToken("admin11", 2);
+            //string userId;
+            //string result=ws.CheckToken(token,out userId);
+            //Console.WriteLine("result:{0},userId:{1}", result, userId);
+
+            //ServiceReference2.TokenServiceWSSoapClient ws = new ServiceReference2.TokenServiceWSSoapClient();
+            //string token = ws.CreateToken("sysadmin", 2);
+            //string userId;
+            //string result = ws.CheckToken(token, out userId);
+            //Console.WriteLine("result:{0},userId:{1}", result, userId);
+
+            //ITokenService tokenService = new TokenService();
+            //string token = ws.CreateToken("sysadmin", 2);
+            //System.Net.HttpWebRequest request = (System.Net.HttpWebRequest)System.Net.HttpWebRequest.Create("http://10.202.101.155:8000/EHotLine/Auth");//目标主机ip地址
+            ////模拟POST的数据
+            //string postData = string.Empty;
+            //postData += "token=" + token;
+            //Encoding utf8 = Encoding.UTF8;
+            //byte[] data = utf8.GetBytes(postData);
+            ////设置请求头信息
+            //request.Method = "POST";
+            //request.ContentType = "application/x-www-form-urlencoded";
+            //request.ContentLength = data.Length;
+            //Stream newStream = request.GetRequestStream();
+            ////把请求数据 写入请求流中
+            //newStream.Write(data, 0, data.Length);
+            //newStream.Close();
+
+            //request.GetResponse();
+            //tokenService.CheckToken("", out userId);
+            //System.Diagnostics.Process.Start("iexplore.exe", "http://10.202.101.155:8000/EHotLine/Auth?token=" + token);
+            ////System.Diagnostics.Process.Start("iexplore.exe", "http://10.202.101.155/Eland.CSWE.Web/EHotLine/Auth?token=" + token);
+
+
+
+            //string token = CryptHelper.AESEncrypt("admin&2015-2-6&3&kjljlk9i09");
+            ////string token = CryptHelper.AESEncrypt("1");
+
+            
+            //string result=CryptHelper.AESDecrypt(token);
+
+            //Console.WriteLine("token:{0}  length:{1}",token,token.Length);
+
+            //Console.WriteLine("result:{0}", result);
+            //Console.WriteLine("base64:{0}", Convert.ToBase64String(new byte[] { 1 }));
+            //Console.WriteLine("base64:{0}", Convert.ToBase64String(new byte[] { 1 ,2}));
+            //Console.WriteLine("base64:{0}", Convert.ToBase64String(new byte[] { 1 ,3,4}));
+            //Console.WriteLine("base64:{0}", Convert.ToBase64String(new byte[] { 1 ,5,6,7}));
+
             Console.Read();
-
-
-        }
-
-        public class SynchronizedTest
-        {
-            [MethodImpl(MethodImplOptions.Synchronized)]
-            public void run()
-            {
-                Console.WriteLine(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
-                Thread.Sleep(5000);
-            }
         }
 
     }

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ElandBJ.Token</name>
+    </assembly>
+    <members>
+        <member name="M:ElandBJ.Token.IService.ITokenService.CreateToken(System.String,System.Int32)">
+            <summary>
+            创建Token
+            </summary>
+            <param name="UserId">当前用户ID</param>
+            <param name="expiredDuration">Token的有效时长（单位：分钟）</param>
+            <returns>Token字符串</returns>
+        </member>
+        <member name="M:ElandBJ.Token.IService.ITokenService.CheckToken(System.String,System.String@)">
+            <summary>
+            校验Token
+            </summary>
+            <param name="token">待校验的Token字符串</param>
+            <param name="userId">输出型参数，若校验通过值为userId，否则值为null</param>
+            <returns>Token校验结果。Valid：校验通过； Invalid：不合法的Token，校验失败； Expired：过期的Token，校验失败</returns>
+        </member>
+        <member name="T:ElandBJ.Token.Model.TokenState">
+            <summary>
+            验证Token结果
+            </summary>
+        </member>
+        <member name="F:ElandBJ.Token.Model.TokenState.Invalid">
+            <summary>
+            表示错误的Token
+            </summary>
+        </member>
+        <member name="F:ElandBJ.Token.Model.TokenState.Expired">
+            <summary>
+            表示过期的Token
+            </summary>
+        </member>
+        <member name="F:ElandBJ.Token.Model.TokenState.Valid">
+            <summary>
+            表示正确的Token
+            </summary>
+        </member>
+        <member name="M:ElandBJ.Token.Security.CryptHelper.EncryptRSA(System.String,System.String)">
+            <summary>
+            公钥加密
+            </summary>
+            <param name="publichKey"></param>
+            <param name="strData"></param>
+        </member>
+        <member name="M:ElandBJ.Token.Security.CryptHelper.AESEncrypt(System.String)">
+            <summary>
+            AES加密算法
+            </summary>
+            <param name="plainText">明文字符串</param>
+            <returns>将加密后的密文转换为Base64编码，以便显示</returns>
+        </member>
+        <member name="M:ElandBJ.Token.Security.CryptHelper.AESDecrypt(System.String)">
+            <summary>
+            AES解密
+            </summary>
+            <param name="showText">密文字符串</param>
+            <returns>返回解密后的明文字符串</returns>
+        </member>
+        <member name="M:ElandBJ.Token.Service.NoRSATokenService.CreateToken(System.String,System.Int32)">
+            <summary>
+            创建Token
+            </summary>
+            <param name="UserId">当前用户ID</param>
+            <param name="expiredDuration">Token的有效时长（单位：分钟）</param>
+            <returns>Token字符串</returns>
+        </member>
+        <member name="M:ElandBJ.Token.Service.NoRSATokenService.CheckToken(System.String,System.String@)">
+            <summary>
+            校验Token
+            </summary>
+            <param name="token">待校验的Token字符串</param>
+            <param name="userId">输出型参数，若校验通过值为userId，否则值为null</param>
+            <returns>Token校验结果。Valid：校验通过； Invalid：不合法的Token，校验失败； Expired：过期的Token，校验失败</returns>
+        </member>
+        <member name="M:ElandBJ.Token.Service.TokenService.CreateToken(System.String,System.Int32)">
+            <summary>
+            创建Token
+            </summary>
+            <param name="UserId">当前用户ID</param>
+            <param name="expiredDuration">Token的有效时长（单位：分钟）</param>
+            <returns>Token字符串</returns>
+        </member>
+        <member name="M:ElandBJ.Token.Service.TokenService.CheckToken(System.String,System.String@)">
+            <summary>
+            校验Token
+            </summary>
+            <param name="token">待校验的Token字符串</param>
+            <param name="userId">输出型参数，若校验通过值为userId，否则值为null</param>
+            <returns>Token校验结果。Valid：校验通过； Invalid：不合法的Token，校验失败； Expired：过期的Token，校验失败</returns>
+        </member>
+    </members>
+</doc>

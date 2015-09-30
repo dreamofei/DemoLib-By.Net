@@ -1,0 +1,14 @@
+时间：gghg 用户： 调用对象：Log.SampleService 的方法：GetTime
+时间：gghg 用户： 调用对象：Log.SampleDao 的方法：GetDate
+时间：2015-08-27 17:03:51 用户：kjlk 调用对象：Log.SampleService 的方法：GetTime
+时间：2015-08-27 17:03:53 用户：kjlk 调用对象：Log.SampleDao 的方法：GetDate
+时间：2015-08-28 13:46:23 用户：admin 调用对象：Log.SampleService 的方法：GetTime
+时间：2015-08-28 13:46:23 用户：admin 调用对象：Log.SampleDao 的方法：GetDate
+时间：2015-08-28 16:39:51 用户：jj 调用对象：Log.SampleService 的方法：GetTime
+时间：2015-08-28 16:39:51 用户：jj 调用对象：Log.SampleDao 的方法：GetDate
+时间：2015-08-28 16:41:34 用户：j 调用对象：Log.SampleService 的方法：GetTime
+时间：2015-08-28 16:41:34 用户：j 调用对象：Log.SampleDao 的方法：GetDate
+时间：2015-09-01 12:46:28 用户：ji 调用对象：Log.SampleService 的方法：GetTime
+时间：2015-09-01 12:46:28 用户：ji 调用对象：Log.SampleDao 的方法：GetDate
+时间：2015-09-01 13:52:53 用户：tgh 调用对象：Log.SampleService 的方法：GetTime
+时间：2015-09-01 13:52:54 用户：tgh 调用对象：Log.SampleDao 的方法：GetTime

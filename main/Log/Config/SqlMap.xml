@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+
+  <sql-query name="SampleDao_GetDate">
+    <![CDATA[
+		SELECT GETDATE() as DateTime]]>
+  </sql-query>
+  <sql-query name="SampleDao_TestException">
+    <![CDATA[
+		exec up_AAA_TestException @ApplyID='',@EmpID='']]>
+  </sql-query>
+</hibernate-mapping>
