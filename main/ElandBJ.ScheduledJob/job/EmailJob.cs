@@ -11,7 +11,6 @@ namespace ElandBJ.ScheduledJob.job
         public void Execute(JobExecutionContext context)
         {
             //实际：调用发送邮件的方法
-
             Console.WriteLine("发邮件了...");
         }
     }
