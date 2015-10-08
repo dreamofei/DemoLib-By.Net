@@ -1,4 +1,5 @@
 ﻿using ElandBJ.ScheduledJob.api;
+using Spring.Context.Support;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,7 +18,8 @@ namespace ElandBJ.ScheduledJob.service
             get
             {
                 //实际：ContextRegistry.GetContext().GetObject("EmailManager");
-                return new EmailManager();
+                //return new EmailManager();
+                return ContextRegistry.GetContext().GetObject("EmailManager") as IEmailManager;
             }
         }
         public EmailService()

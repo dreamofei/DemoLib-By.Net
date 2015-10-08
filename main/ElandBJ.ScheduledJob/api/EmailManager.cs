@@ -32,7 +32,11 @@ namespace ElandBJ.ScheduledJob.api
                 isInit = true;
 
                 List<TriggerDto> triggers;
-                triggers = new List<TriggerDto>(); //实际：调用方法得到数据库中的所有trigger
+                //实际：调用方法得到数据库中的所有trigger
+                triggers = new List<TriggerDto>() 
+                {
+                    new TriggerDto(){CronExpression="0/2 * * * * ?",TriggerName="test"}
+                }; 
 
                 triggers.ForEach(t => this.AddTrigger(t.CronExpression, t.TriggerName));
             }

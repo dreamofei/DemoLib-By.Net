@@ -1,0 +1,13 @@
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ElandBJ.ScheduledJob\bin\Debug\ElandBJ.ScheduledJob.exe.config
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ElandBJ.ScheduledJob\bin\Debug\ElandBJ.ScheduledJob.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ElandBJ.ScheduledJob\bin\Debug\ElandBJ.ScheduledJob.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ElandBJ.ScheduledJob\bin\Debug\Quartz.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ElandBJ.ScheduledJob\bin\Debug\Spring.Core.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ElandBJ.ScheduledJob\bin\Debug\Spring.Data.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ElandBJ.ScheduledJob\bin\Debug\Spring.Services.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ElandBJ.ScheduledJob\bin\Debug\Spring.Web.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ElandBJ.ScheduledJob\bin\Debug\Common.Logging.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ElandBJ.ScheduledJob\bin\Debug\Spring.Aop.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ElandBJ.ScheduledJob\obj\Debug\ElandBJ.ScheduledJob.csprojResolveAssemblyReference.cache
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ElandBJ.ScheduledJob\obj\Debug\ElandBJ.ScheduledJob.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\ElandBJ.ScheduledJob\obj\Debug\ElandBJ.ScheduledJob.pdb
