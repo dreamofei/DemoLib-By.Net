@@ -9,7 +9,7 @@ namespace springNetQuartz
     {
         public void Execute(JobExecutionContext context)
         {
-            Console.WriteLine("发邮件了...");
+            Console.WriteLine(context.Trigger.Name+" 发邮件了...");
         }
     }
 }

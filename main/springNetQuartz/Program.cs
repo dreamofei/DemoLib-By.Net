@@ -16,6 +16,9 @@ namespace springNetQuartz
             scheduler.Start();
 
             JobDetail job = new JobDetail("firstJob", typeof(EmailManger));
+            job.Durable = true;
+
+            scheduler.AddJob(job, false);
 
             //Trigger trigger = TriggerUtils.MakeSecondlyTrigger(5);
             //trigger.StartTimeUtc = TriggerUtils.GetEvenSecondDate(DateTime.UtcNow);
@@ -29,7 +32,19 @@ namespace springNetQuartz
             ctrigger.Name = "tt";
             ctrigger.Group = "default";
 
-            scheduler.ScheduleJob(job, ctrigger);
+            JobDetail job2 = new JobDetail("firstJob2", typeof(EmailManger));
+
+            CronTrigger ctrigger2 = new CronTrigger();
+            //ctrigger.StartTimeUtc = TriggerUtils.GetEvenSecondDate(DateTime.UtcNow);
+            ctrigger2.CronExpressionString = "0/2 * * * * ?";
+            ctrigger2.Name = "tt2";
+            ctrigger2.Group = "default";
+            ctrigger2.JobName = "firstJob";
+            //ctrigger2.JobGroup = "";
+
+            scheduler.ScheduleJob(ctrigger);
+            scheduler.ScheduleJob(ctrigger2);
+            //scheduler.ScheduleJob(job2, ctrigger2);
 
             while (true)
             {

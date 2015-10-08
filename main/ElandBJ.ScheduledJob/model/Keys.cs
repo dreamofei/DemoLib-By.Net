@@ -9,5 +9,6 @@ namespace ElandBJ.ScheduledJob.model
     {
         public const string JOBGROUP = "mainGroup";
         public const string TRIGGERGROUP = "mainGroup";
+        public const string JOBNAME = "emailSender";
     }
 }

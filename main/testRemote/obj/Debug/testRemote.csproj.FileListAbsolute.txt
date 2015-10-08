@@ -1,0 +1,12 @@
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\testRemote\bin\Debug\testRemote.exe.config
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\testRemote\bin\Debug\testRemote.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\testRemote\bin\Debug\testRemote.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\testRemote\bin\Debug\ElandBJ.ScheduledJob.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\testRemote\bin\Debug\Spring.Core.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\testRemote\bin\Debug\Spring.Services.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\testRemote\bin\Debug\Quartz.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\testRemote\bin\Debug\Common.Logging.dll
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\testRemote\bin\Debug\ElandBJ.ScheduledJob.pdb
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\testRemote\obj\Debug\testRemote.csprojResolveAssemblyReference.cache
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\testRemote\obj\Debug\testRemote.exe
+D:\Jiang\D\MyProject\VS2013\DemoLib\main\testRemote\obj\Debug\testRemote.pdb
