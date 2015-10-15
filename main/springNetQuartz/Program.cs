@@ -28,11 +28,13 @@ namespace springNetQuartz
 
             CronTrigger ctrigger = new CronTrigger();
             //ctrigger.StartTimeUtc = TriggerUtils.GetEvenSecondDate(DateTime.UtcNow);
-            ctrigger.CronExpressionString = "0/2 * * * * ?";
+            //ctrigger.CronExpressionString = "0/6 * * * * ?";
+            ctrigger.CronExpressionString = "0 0 2 ? * SUN";
             ctrigger.Name = "tt";
             ctrigger.Group = "default";
+            ctrigger.JobName = "firstJob";
 
-            JobDetail job2 = new JobDetail("firstJob2", typeof(EmailManger));
+            //JobDetail job2 = new JobDetail("firstJob2", typeof(EmailManger));
 
             CronTrigger ctrigger2 = new CronTrigger();
             //ctrigger.StartTimeUtc = TriggerUtils.GetEvenSecondDate(DateTime.UtcNow);
@@ -43,7 +45,7 @@ namespace springNetQuartz
             //ctrigger2.JobGroup = "";
 
             scheduler.ScheduleJob(ctrigger);
-            scheduler.ScheduleJob(ctrigger2);
+            //scheduler.ScheduleJob(ctrigger2);
             //scheduler.ScheduleJob(job2, ctrigger2);
 
             while (true)
@@ -51,7 +53,20 @@ namespace springNetQuartz
                 string newJob = Console.ReadLine();
                 if (newJob == "Y")
                 {
+
+                    CronTrigger oldTrigger=(scheduler.GetTrigger("tt", "default") as CronTrigger);
+                    CronTrigger newTrigger = (CronTrigger)oldTrigger;
+                    newTrigger.CronExpressionString = "0/5 * * * * ?";
+                    //scheduler.ResumeTrigger("tt", "default");
                     scheduler.UnscheduleJob("tt", "default");
+                    scheduler.ScheduleJob(newTrigger);
+                    //scheduler.RescheduleJob("tt", "default", newTrigger);
+                    scheduler.DeleteJob("firstJob", "default");
+
+                    Console.WriteLine("修改了...");
+
+
+
                 }
             }
 

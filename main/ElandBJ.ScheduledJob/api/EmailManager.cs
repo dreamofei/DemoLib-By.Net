@@ -12,13 +12,16 @@ namespace ElandBJ.ScheduledJob.api
     public class EmailManager : IEmailManager
     {
         private static bool isInit = false;
-        //private JobDetail job = new JobDetail("EmailSender", Keys.JOBGROUP, typeof(EmailJob));
-        private JobDetail job = CommonUtil.BuildJob();
+        private JobDetail job;
+        public EmailManager()
+        {
+            job = CommonUtil.BuildJob();
+            GlobalScheduler.Scheduler.AddJob(job, false);
+        }
         
         public void AddTrigger(string cronExpression,string triggerName)
         {
             Trigger trigger = CommonUtil.BuildTrigger(cronExpression,triggerName);
-            //GlobalScheduler.Scheduler.ScheduleJob(job, trigger);
             GlobalScheduler.Scheduler.ScheduleJob(trigger);
         }
 
@@ -27,12 +30,24 @@ namespace ElandBJ.ScheduledJob.api
             GlobalScheduler.Scheduler.UnscheduleJob(triggerName, Keys.TRIGGERGROUP);
         }
 
+        public void ModifyTrigger(string cronExpression, string triggerName)
+        {
+            this.RemoveTrigger(triggerName);
+            this.AddTrigger(cronExpression, triggerName);
+        }
+
+        public void TriggerScheduled()
+        {
+            GlobalScheduler.Scheduler.GetTriggersOfJob(Keys.JOBNAME, Keys.JOBGROUP).ToList().ForEach(t => this.RemoveTrigger(t.Name));
+            isInit = false;
+            this.InitEmailScheduler();
+        }
+
         public void InitEmailScheduler()
         {
             if(isInit==false)
             {
                 isInit = true;
-                GlobalScheduler.Scheduler.AddJob(job, false);
 
                 List<TriggerDto> triggers;
                 //实际：调用方法得到数据库中的所有trigger

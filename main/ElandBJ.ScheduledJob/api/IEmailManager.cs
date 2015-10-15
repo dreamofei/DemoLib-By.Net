@@ -11,6 +11,10 @@ namespace ElandBJ.ScheduledJob.api
 
         void RemoveTrigger(string triggerName);
 
+        void ModifyTrigger(string cronExpression, string triggerName);
+
+        void TriggerScheduled();
+
         void InitEmailScheduler();
     }
 }
