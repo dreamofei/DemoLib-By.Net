@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MdiFormSkin", "main\MdiFormSkin\MdiFormSkin.csproj", "{925DEC96-1940-4555-902F-8E732FC7B348}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testRemote", "main\testRemote\testRemote.csproj", "{1DB51D5E-1897-4F5F-9008-1699CD06E88E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTestRemote", "main\WebTestRemote\WebTestRemote.csproj", "{73A3A0C5-09C6-40C7-B8B6-672206FFD449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateDBBaseOnDB", "main\CreateDBBaseOnDB\CreateDBBaseOnDB.csproj", "{9B0BF134-8C0A-48A2-82A1-6AFE40B99988}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{73A3A0C5-09C6-40C7-B8B6-672206FFD449}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73A3A0C5-09C6-40C7-B8B6-672206FFD449}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73A3A0C5-09C6-40C7-B8B6-672206FFD449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0BF134-8C0A-48A2-82A1-6AFE40B99988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0BF134-8C0A-48A2-82A1-6AFE40B99988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0BF134-8C0A-48A2-82A1-6AFE40B99988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0BF134-8C0A-48A2-82A1-6AFE40B99988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

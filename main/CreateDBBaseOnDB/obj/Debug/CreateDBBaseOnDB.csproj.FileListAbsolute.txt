@@ -1,0 +1,6 @@
+E:\myProjects\DemoLib-By.Net\main\CreateDBBaseOnDB\obj\Debug\CreateDBBaseOnDB.csprojResolveAssemblyReference.cache
+E:\myProjects\DemoLib-By.Net\main\CreateDBBaseOnDB\bin\Debug\CreateDBBaseOnDB.exe.config
+E:\myProjects\DemoLib-By.Net\main\CreateDBBaseOnDB\bin\Debug\CreateDBBaseOnDB.exe
+E:\myProjects\DemoLib-By.Net\main\CreateDBBaseOnDB\bin\Debug\CreateDBBaseOnDB.pdb
+E:\myProjects\DemoLib-By.Net\main\CreateDBBaseOnDB\obj\Debug\CreateDBBaseOnDB.exe
+E:\myProjects\DemoLib-By.Net\main\CreateDBBaseOnDB\obj\Debug\CreateDBBaseOnDB.pdb
